@@ -37,6 +37,7 @@ export default class Login extends React.Component {
           onChangeText={password => this.setState({ password })}
           value={this.state.password}
         />
+        <Text>-</Text>
         <Button title="Login" onPress={this.handleLogin} />
         <Text>-</Text>
         <Button

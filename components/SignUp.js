@@ -37,6 +37,7 @@ export default class SignUp extends React.Component {
           onChangeText={password => this.setState({ password })}
           value={this.state.password}
         />
+        <Text>-</Text>
         <Button title="Sign Up" onPress={this.handleSignUp} />
         <Text>-</Text>
         <Button
